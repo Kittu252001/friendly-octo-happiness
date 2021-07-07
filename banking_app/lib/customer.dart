@@ -69,7 +69,7 @@ class _CustomerState extends State<Customer> {
                     height: 10,
                   ),
                   Container(
-                    height: 100,
+                    height: 30,
                     child: Image.asset(user[0]['Gender'] == "M"
                         ? 'images/man.png'
                         : 'images/woman.png'),
